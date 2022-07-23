@@ -1,0 +1,8 @@
+'Warning: This file is created by the AutoSequences dialog.
+'Changing the code will cause errors in loading the file.
+'IDs:33#32#
+
+Sub Main
+SaveCurrentStone
+ShowLoadStone
+End Sub

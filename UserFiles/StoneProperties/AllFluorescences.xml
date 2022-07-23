@@ -1,0 +1,9 @@
+<Sarin>
+    <All_Fluorescences  Version = "1.1">
+        <Fluorescence  ID="0" Name="None" > </Fluorescence>
+        <Fluorescence ID="1" Name="Faint" > </Fluorescence>
+        <Fluorescence  ID= "2" Name="Medium" > </Fluorescence>
+        <Fluorescence  ID= "3" Name="Strong" > </Fluorescence>
+        <Fluorescence  ID= "4" Name="Distinct" > </Fluorescence>
+    </All_Fluorescences>
+</Sarin>

@@ -1,0 +1,25 @@
+<Sarin>
+  11
+    <Item ID="0" Value="60"/>
+    <Item ID="1" Value="50"/>
+    <Item ID="2" Value="40"/>
+    <Item ID="3" Value="30"/>
+    <Item ID="4" Value="20"/>
+    <Item ID="5" Value="10"/>
+    <Item ID="6" Value="0"/>
+    <Item ID="7" Value="-10"/>
+    <Item ID="8" Value="-50"/>
+    <Item ID="9" Value="-70"/>
+    <Item ID="10" Value="-100"/>
+    <Item ID="11" Value="-120"/>
+    <Item ID="12" Value="-150"/>
+    <Item ID="13" Value="-170"/>
+    <Item ID="14" Value="-200"/>
+    <Item ID="15" Value="-230"/>
+    <Item ID="16" Value="-250"/>
+    <Item ID="17" Value="-270"/>
+    <Item ID="18" Value="-300"/>
+    <Item ID="19" Value="-320"/>
+    <Item ID="20" Value="-350"/>
+  </SafetyDistances>
+</Sarin>

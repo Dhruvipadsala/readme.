@@ -1,0 +1,1 @@
+[RESULT.cur.Diameter],[Result.cur.PavilAngle],[Result.cur.CrownAngle],[RESULT.cur.CrownHeight_%],[RESULT.cur.Girdle_%_NoPrefix]

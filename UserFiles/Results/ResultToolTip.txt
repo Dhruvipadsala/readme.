@@ -1,0 +1,10 @@
+Shape:[RESULT.cur.ShapeName] 
+Inst:[RESULT.cur.Grading.Institute] 
+CutGrade:[RESULT.cur.Grading.CutGrade] 
+SymmetryGrade:[RESULT.cur.Grading.SymmetryGrade] 
+Pol Wt:[Result.cur.PolishWeight]([result.cur.PartUsage])ct ,
+Type:[RESULT.cur.Type]
+Color:[RESULT.cur.Color]
+Clarity:[RESULT.cur.Clarity]
+Discount:[Result.cur.PriceDiscount] 
+Value:[Result.cur.Value] 

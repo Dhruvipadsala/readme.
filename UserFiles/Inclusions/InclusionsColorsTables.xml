@@ -1,0 +1,36 @@
+<Sarin>
+  <DisplayModes>
+    <Mode Name="Calculator" Order="Polish#State#Depth"/>
+    <Mode Name="InclusionEditor" Order="Current#State#User#Depth#GroupsNames"/>
+    <Mode Name="OldInclusions" Order="Current#State#Depth"/>
+    <Mode Name="Planes" Order="State#Depth#GroupsNames"/>
+    <Mode Name="Results" Order="Polish#State#Depth#GroupsNames"/>
+  </DisplayModes>
+  <ColorsByRoughDistance>
+    <Range ID="0" color="65535" max="200.000000" min="0.000000" text=""/>
+    <Range ID="1" color="1297980" max="500.000000" min="200.000000" text=""/>
+    <Range ID="2" color="255" max="5000.000000" min="500.000000" text=""/>
+  </ColorsByRoughDistance>
+  <ColorsByPolishRelation>
+    <Range ID="0" color="255" max="-250.000000" min="-1200.000000" text="Inner"/>
+    <Range ID="1" color="255" max="0.000000" min="-250.000000" text="Surface (in)"/>
+    <Range ID="2" color="1680270052" max="150.000000" min="0.000000" text="Surface (out)"/>
+    <Range ID="3" color="1238820" max="1000.000000" min="150.000000" text="Outer"/>
+  </ColorsByPolishRelation>
+  <ColorsByInclusionState>
+    <Range ID="0" color="185" max="1.000000" min="0.000000" text="Ignore"/>
+    <Range ID="1" color="1093428" max="2.000000" min="1.000000" text="Use"/>
+    <Range ID="2" color="50372" max="3.000000" min="2.000000" text="Auto"/>
+    <Range ID="3" color="16732497" max="4.000000" min="3.000000" text="Partial"/>
+  </ColorsByInclusionState>
+  <ColorsByUserClarity>
+    <Range ID="0" color="1297980" max="1.000000" min="0.000000" text="App"/>
+    <Range ID="1" color="33023" max="2.000000" min="1.000000" text="User"/>
+    <Range ID="2" color="16711680" max="3.000000" min="2.000000" text="Selected"/>
+    <Range ID="3" color="16752706" max="4.000000" min="3.000000" text="Auto"/>
+  </ColorsByUserClarity>
+  <ColorsBySelection>
+    <Range ID="0" color="128" max="1.000000" min="0.000000" text="Selected"/>
+    <Range ID="1" color="8421440" max="2.000000" min="1.000000" text="Other"/>
+  </ColorsBySelection>
+</Sarin>

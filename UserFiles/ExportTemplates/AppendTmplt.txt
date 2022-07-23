@@ -1,0 +1,1 @@
+  [stone.Name]  [stone.RoughWeight]crt [stone.RoughLength]mm [stone.RoughHeight]mm [stone.PartA.partWeight]crt [stone.PartB.partWeight]crt

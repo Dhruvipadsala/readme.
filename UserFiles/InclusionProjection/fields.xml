@@ -1,0 +1,26 @@
+<Sarin>
+  <Fields version="2.000000">
+    <Field DisplayName="Value" FieldName="Value" FieldOrigin="Result" SummaryMethod="SUM" Units="$"/>
+    <Field DisplayName="Weight" FieldName="PolishWeight" FieldOrigin="Result" SummaryMethod="SUM" Units="ct"/>
+    <Field DisplayName="Tilt" FieldName="Tilt" FieldOrigin="Result" SummaryMethod="SAME" Units="°"/>
+    <Field DisplayName="Polish Yield" FieldName="PartUsage" FieldOrigin="Result" SummaryMethod="SUM" Units="%"/>
+    <Field DisplayName="Part Weight" FieldName="PartWeight" FieldOrigin="Result" SummaryMethod="SUM" Units="ct"/>
+    <Field DisplayName="Part Yield" FieldName="PartOfRough" FieldOrigin="Result" SummaryMethod="SUM" Units="%"/>
+    <Field DisplayName="Shape Name" FieldName="ShapeName" FieldOrigin="Result" SummaryMethod="" Units=""/>
+    <Field DisplayName="Cut Weight" FieldName="CutPartWeight" FieldOrigin="Result" SummaryMethod="" Units="ct"/>
+    <Field DisplayName="Rough Cut" FieldName="RoughCutWeight" FieldOrigin="Result" SummaryMethod="" Units="ct"/>
+    <Field DisplayName="Saw Plane" FieldName="SawName" FieldOrigin="Result" SummaryMethod="" Units=""/>
+    <Field DisplayName="Institute" FieldName="Grading.Institute" FieldOrigin="Result" SummaryMethod="" Units=""/>
+    <Field DisplayName="Cut Grade" FieldName="Grading.CutGrade" FieldOrigin="Result" SummaryMethod="" Units=""/>
+    <Field DisplayName="Total Height %" FieldName="TotalDepth_%" FieldOrigin="Result" SummaryMethod="" Units="%"/>
+    <Field DisplayName="Total Height mm" FieldName="TotalDepth_mm" FieldOrigin="Result" SummaryMethod="" Units="mm"/>
+    <Field DisplayName="Length" FieldName="Length" FieldOrigin="Result" SummaryMethod="" Units="mm"/>
+    <Field DisplayName="Width/ Diam." FieldName="Width" FieldOrigin="Result" SummaryMethod="" Units="mm"/>
+    <Field DisplayName="L/W Ratio" FieldName="Ratio" FieldOrigin="Result" SummaryMethod="" Units=""/>
+    <Field DisplayName="Color" FieldName="Color" FieldOrigin="Result" SummaryMethod="" Units=""/>
+    <Field DisplayName="Clarity" FieldName="Clarity" FieldOrigin="Result" SummaryMethod="" Units=""/>
+    <Field DisplayName="Saw Width mic" FieldName="SawWidth" FieldOrigin="Result" SummaryMethod="" Units="mic"/>
+    <Field DisplayName="Saw Width %" FieldName="SawWeight" FieldOrigin="Result" SummaryMethod="" Units="%"/>
+    <Field DisplayName="Type" FieldName="Type" FieldOrigin="Result" SummaryMethod="" Units=""/>
+  </Fields>
+</Sarin>

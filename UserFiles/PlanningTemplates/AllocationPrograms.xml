@@ -1,0 +1,629 @@
+<Sarin>
+  <AllocationProgramPossibleColors Colors="255,255,0;0,0,255;0,255,0;255,128,0;255,0,255;255,0,0;0,0,128;128,0,0;0,128,0;128,64,0;128,0,128;0,128,128;128,255,0;0,128,255;128,0,255;0,255,128;255,0,128;0,255,255;128,255,128;255,128,255;255,128,128;128,128,0;128,128,255;255,255,128;128,255,255;"/>
+  <AllocationProgramsRoot ProgramID="1" ProgramInvalidReason="" ProgramMaxChildren="-1" ProgramMinChildren="0" ProgramName="" ProgramType="TrunksRoot">
+    <ProgramSupportedFields FieldNames="Name"/>
+    <ProgramSerializableFields FieldNames="Name"/>
+    <ProgramFields>
+      <Field FieldID="0" FieldName="Name" Type="string" Value=""/>
+    </ProgramFields>
+    <ProgramChildren>
+      <Child ProgramID="3" ProgramInvalidReason="" ProgramMaxChildren="6" ProgramMinChildren="6" ProgramName="Rounds" ProgramType="Trunk">
+        <ProgramSupportedFields FieldNames="Name,ColorIndex"/>
+        <ProgramSerializableFields FieldNames="Name,ColorIndex"/>
+        <ProgramFields>
+          <Field FieldID="0" FieldName="Name" Type="string" Value="Rounds"/>
+          <Field FieldID="15" FieldName="ColorIndex" Type="long" Value="0"/>
+        </ProgramFields>
+        <ProgramChildren>
+          <Child ProgramID="9" ProgramInvalidReason="" ProgramMaxChildren="-1" ProgramMinChildren="0" ProgramName="Whole" ProgramType="WholeContainer">
+            <ProgramSupportedFields FieldNames="Name"/>
+            <ProgramSerializableFields FieldNames="Name"/>
+            <ProgramFields>
+              <Field FieldID="0" FieldName="Name" Type="string" Value="Whole"/>
+            </ProgramFields>
+            <ProgramChildren>
+              <Child ProgramID="15" ProgramInvalidReason="" ProgramMaxChildren="-1" ProgramMinChildren="1" ProgramName="W1" ProgramType="Whole">
+                <ProgramSupportedFields FieldNames="Name,MultiPlan"/>
+                <ProgramSerializableFields FieldNames="Name"/>
+                <ProgramFields>
+                  <Field FieldID="0" FieldName="Name" Type="string" Value="W1"/>
+                </ProgramFields>
+                <ProgramChildren>
+                  <Child ProgramID="10" ProgramInvalidReason="" ProgramMaxChildren="0" ProgramMinChildren="0" ProgramName="W1.1" ProgramType="WholeSimple">
+                    <ProgramSupportedFields FieldNames="Name,ShapeID,ShapeName,GradeID,GradeName,InstituteID,InstituteName,AsymmGradeID,AsymmGradeName,Tilt"/>
+                    <ProgramSerializableFields FieldNames="Name,ShapeID,GradeID,InstituteID,AsymmGradeID,Tilt"/>
+                    <ProgramFields>
+                      <Field FieldID="0" FieldName="Name" Type="string" Value="W1.1"/>
+                      <Field FieldID="4" FieldName="ShapeID" Type="long" Value="1"/>
+                      <Field FieldID="6" FieldName="GradeID" Type="long" Value="0"/>
+                      <Field FieldID="8" FieldName="InstituteID" Type="long" Value="0"/>
+                      <Field FieldID="10" FieldName="AsymmGradeID" Type="long" Value="-1"/>
+                      <Field FieldID="14" FieldName="Tilt" Type="double" Value="180.000000"/>
+                    </ProgramFields>
+                    <ProgramChildren/>
+                  </Child>
+                  <Child ProgramID="11" ProgramInvalidReason="" ProgramMaxChildren="0" ProgramMinChildren="0" ProgramName="W1.2" ProgramType="WholeSimple">
+                    <ProgramSupportedFields FieldNames="Name,ShapeID,ShapeName,GradeID,GradeName,InstituteID,InstituteName,AsymmGradeID,AsymmGradeName,Tilt"/>
+                    <ProgramSerializableFields FieldNames="Name,ShapeID,GradeID,InstituteID,AsymmGradeID,Tilt"/>
+                    <ProgramFields>
+                      <Field FieldID="0" FieldName="Name" Type="string" Value="W1.2"/>
+                      <Field FieldID="4" FieldName="ShapeID" Type="long" Value="1"/>
+                      <Field FieldID="6" FieldName="GradeID" Type="long" Value="1"/>
+                      <Field FieldID="8" FieldName="InstituteID" Type="long" Value="0"/>
+                      <Field FieldID="10" FieldName="AsymmGradeID" Type="long" Value="-1"/>
+                      <Field FieldID="14" FieldName="Tilt" Type="double" Value="180.000000"/>
+                    </ProgramFields>
+                    <ProgramChildren/>
+                  </Child>
+                  <Child ProgramID="12" ProgramInvalidReason="" ProgramMaxChildren="0" ProgramMinChildren="0" ProgramName="W1.3" ProgramType="WholeSimple">
+                    <ProgramSupportedFields FieldNames="Name,ShapeID,ShapeName,GradeID,GradeName,InstituteID,InstituteName,AsymmGradeID,AsymmGradeName,Tilt"/>
+                    <ProgramSerializableFields FieldNames="Name,ShapeID,GradeID,InstituteID,AsymmGradeID,Tilt"/>
+                    <ProgramFields>
+                      <Field FieldID="0" FieldName="Name" Type="string" Value="W1.3"/>
+                      <Field FieldID="4" FieldName="ShapeID" Type="long" Value="1"/>
+                      <Field FieldID="6" FieldName="GradeID" Type="long" Value="2"/>
+                      <Field FieldID="8" FieldName="InstituteID" Type="long" Value="0"/>
+                      <Field FieldID="10" FieldName="AsymmGradeID" Type="long" Value="-1"/>
+                      <Field FieldID="14" FieldName="Tilt" Type="double" Value="180.000000"/>
+                    </ProgramFields>
+                    <ProgramChildren/>
+                  </Child>
+                  <Child ProgramID="13" ProgramInvalidReason="" ProgramMaxChildren="0" ProgramMinChildren="0" ProgramName="W1.4" ProgramType="WholeSimple">
+                    <ProgramSupportedFields FieldNames="Name,ShapeID,ShapeName,GradeID,GradeName,InstituteID,InstituteName,AsymmGradeID,AsymmGradeName,Tilt"/>
+                    <ProgramSerializableFields FieldNames="Name,ShapeID,GradeID,InstituteID,AsymmGradeID,Tilt"/>
+                    <ProgramFields>
+                      <Field FieldID="0" FieldName="Name" Type="string" Value="W1.4"/>
+                      <Field FieldID="4" FieldName="ShapeID" Type="long" Value="1"/>
+                      <Field FieldID="6" FieldName="GradeID" Type="long" Value="3"/>
+                      <Field FieldID="8" FieldName="InstituteID" Type="long" Value="0"/>
+                      <Field FieldID="10" FieldName="AsymmGradeID" Type="long" Value="-1"/>
+                      <Field FieldID="14" FieldName="Tilt" Type="double" Value="180.000000"/>
+                    </ProgramFields>
+                    <ProgramChildren/>
+                  </Child>
+                  <Child ProgramID="14" ProgramInvalidReason="" ProgramMaxChildren="0" ProgramMinChildren="0" ProgramName="W1.5" ProgramType="WholeSimple">
+                    <ProgramSupportedFields FieldNames="Name,ShapeID,ShapeName,GradeID,GradeName,InstituteID,InstituteName,AsymmGradeID,AsymmGradeName,Tilt"/>
+                    <ProgramSerializableFields FieldNames="Name,ShapeID,GradeID,InstituteID,AsymmGradeID,Tilt"/>
+                    <ProgramFields>
+                      <Field FieldID="0" FieldName="Name" Type="string" Value="W1.5"/>
+                      <Field FieldID="4" FieldName="ShapeID" Type="long" Value="1"/>
+                      <Field FieldID="6" FieldName="GradeID" Type="long" Value="4"/>
+                      <Field FieldID="8" FieldName="InstituteID" Type="long" Value="0"/>
+                      <Field FieldID="10" FieldName="AsymmGradeID" Type="long" Value="-1"/>
+                      <Field FieldID="14" FieldName="Tilt" Type="double" Value="180.000000"/>
+                    </ProgramFields>
+                    <ProgramChildren/>
+                  </Child>
+                </ProgramChildren>
+              </Child>
+            </ProgramChildren>
+          </Child>
+          <Child ProgramID="17" ProgramInvalidReason="" ProgramMaxChildren="-1" ProgramMinChildren="0" ProgramName="Best Plus Remainder" ProgramType="BestPlusRemainderContainer">
+            <ProgramSupportedFields FieldNames="Name"/>
+            <ProgramSerializableFields FieldNames="Name"/>
+            <ProgramFields>
+              <Field FieldID="0" FieldName="Name" Type="string" Value="Best Plus Remainder"/>
+            </ProgramFields>
+            <ProgramChildren/>
+          </Child>
+          <Child ProgramID="35" ProgramInvalidReason="" ProgramMaxChildren="-1" ProgramMinChildren="0" ProgramName="Best Twin" ProgramType="BestTwinContainer">
+            <ProgramSupportedFields FieldNames="Name"/>
+            <ProgramSerializableFields FieldNames="Name"/>
+            <ProgramFields>
+              <Field FieldID="0" FieldName="Name" Type="string" Value="Best Twin"/>
+            </ProgramFields>
+            <ProgramChildren/>
+          </Child>
+          <Child ProgramID="5" ProgramInvalidReason="" ProgramMaxChildren="-1" ProgramMinChildren="0" ProgramName="Best Pair" ProgramType="BestPairContainer">
+            <ProgramSupportedFields FieldNames="Name"/>
+            <ProgramSerializableFields FieldNames="Name"/>
+            <ProgramFields>
+              <Field FieldID="0" FieldName="Name" Type="string" Value="Best Pair"/>
+            </ProgramFields>
+            <ProgramChildren/>
+          </Child>
+          <Child ProgramID="6" ProgramInvalidReason="" ProgramMaxChildren="-1" ProgramMinChildren="0" ProgramName="Best Value" ProgramType="BestValueContainer">
+            <ProgramSupportedFields FieldNames="Name"/>
+            <ProgramSerializableFields FieldNames="Name"/>
+            <ProgramFields>
+              <Field FieldID="0" FieldName="Name" Type="string" Value="Best Value"/>
+            </ProgramFields>
+            <ProgramChildren/>
+          </Child>
+          <Child ProgramID="7" ProgramInvalidReason="" ProgramMaxChildren="-1" ProgramMinChildren="0" ProgramName="Sawless" ProgramType="eSawlessContainer">
+            <ProgramSupportedFields FieldNames="Name"/>
+            <ProgramSerializableFields FieldNames="Name"/>
+            <ProgramFields>
+              <Field FieldID="0" FieldName="Name" Type="string" Value="Sawless"/>
+            </ProgramFields>
+            <ProgramChildren/>
+          </Child>
+        </ProgramChildren>
+      </Child>
+      <Child ProgramID="4" ProgramInvalidReason="" ProgramMaxChildren="6" ProgramMinChildren="6" ProgramName="Shapes" ProgramType="Trunk">
+        <ProgramSupportedFields FieldNames="Name,ColorIndex"/>
+        <ProgramSerializableFields FieldNames="Name,ColorIndex"/>
+        <ProgramFields>
+          <Field FieldID="0" FieldName="Name" Type="string" Value="Shapes"/>
+          <Field FieldID="15" FieldName="ColorIndex" Type="long" Value="1"/>
+        </ProgramFields>
+        <ProgramChildren>
+          <Child ProgramID="25" ProgramInvalidReason="" ProgramMaxChildren="-1" ProgramMinChildren="0" ProgramName="Whole" ProgramType="WholeContainer">
+            <ProgramSupportedFields FieldNames="Name"/>
+            <ProgramSerializableFields FieldNames="Name"/>
+            <ProgramFields>
+              <Field FieldID="0" FieldName="Name" Type="string" Value="Whole"/>
+            </ProgramFields>
+            <ProgramChildren>
+              <Child ProgramID="33" ProgramInvalidReason="" ProgramMaxChildren="-1" ProgramMinChildren="1" ProgramName="W1" ProgramType="Whole">
+                <ProgramSupportedFields FieldNames="Name,MultiPlan"/>
+                <ProgramSerializableFields FieldNames="Name"/>
+                <ProgramFields>
+                  <Field FieldID="0" FieldName="Name" Type="string" Value="W1"/>
+                </ProgramFields>
+                <ProgramChildren>
+                  <Child ProgramID="26" ProgramInvalidReason="" ProgramMaxChildren="0" ProgramMinChildren="0" ProgramName="W1.1" ProgramType="WholeSimple">
+                    <ProgramSupportedFields FieldNames="Name,ShapeID,ShapeName,GradeID,GradeName,InstituteID,InstituteName,AsymmGradeID,AsymmGradeName,Tilt"/>
+                    <ProgramSerializableFields FieldNames="Name,ShapeID,GradeID,InstituteID,AsymmGradeID,Tilt"/>
+                    <ProgramFields>
+                      <Field FieldID="0" FieldName="Name" Type="string" Value="W1.1"/>
+                      <Field FieldID="4" FieldName="ShapeID" Type="long" Value="2"/>
+                      <Field FieldID="6" FieldName="GradeID" Type="long" Value="2"/>
+                      <Field FieldID="8" FieldName="InstituteID" Type="long" Value="3"/>
+                      <Field FieldID="10" FieldName="AsymmGradeID" Type="long" Value="-1"/>
+                      <Field FieldID="14" FieldName="Tilt" Type="double" Value="180.000000"/>
+                    </ProgramFields>
+                    <ProgramChildren/>
+                  </Child>
+                  <Child ProgramID="27" ProgramInvalidReason="" ProgramMaxChildren="0" ProgramMinChildren="0" ProgramName="W1.2" ProgramType="WholeSimple">
+                    <ProgramSupportedFields FieldNames="Name,ShapeID,ShapeName,GradeID,GradeName,InstituteID,InstituteName,AsymmGradeID,AsymmGradeName,Tilt"/>
+                    <ProgramSerializableFields FieldNames="Name,ShapeID,GradeID,InstituteID,AsymmGradeID,Tilt"/>
+                    <ProgramFields>
+                      <Field FieldID="0" FieldName="Name" Type="string" Value="W1.2"/>
+                      <Field FieldID="4" FieldName="ShapeID" Type="long" Value="3"/>
+                      <Field FieldID="6" FieldName="GradeID" Type="long" Value="2"/>
+                      <Field FieldID="8" FieldName="InstituteID" Type="long" Value="3"/>
+                      <Field FieldID="10" FieldName="AsymmGradeID" Type="long" Value="-1"/>
+                      <Field FieldID="14" FieldName="Tilt" Type="double" Value="180.000000"/>
+                    </ProgramFields>
+                    <ProgramChildren/>
+                  </Child>
+                  <Child ProgramID="28" ProgramInvalidReason="" ProgramMaxChildren="0" ProgramMinChildren="0" ProgramName="W1.3" ProgramType="WholeSimple">
+                    <ProgramSupportedFields FieldNames="Name,ShapeID,ShapeName,GradeID,GradeName,InstituteID,InstituteName,AsymmGradeID,AsymmGradeName,Tilt"/>
+                    <ProgramSerializableFields FieldNames="Name,ShapeID,GradeID,InstituteID,AsymmGradeID,Tilt"/>
+                    <ProgramFields>
+                      <Field FieldID="0" FieldName="Name" Type="string" Value="W1.3"/>
+                      <Field FieldID="4" FieldName="ShapeID" Type="long" Value="4"/>
+                      <Field FieldID="6" FieldName="GradeID" Type="long" Value="2"/>
+                      <Field FieldID="8" FieldName="InstituteID" Type="long" Value="3"/>
+                      <Field FieldID="10" FieldName="AsymmGradeID" Type="long" Value="-1"/>
+                      <Field FieldID="14" FieldName="Tilt" Type="double" Value="180.000000"/>
+                    </ProgramFields>
+                    <ProgramChildren/>
+                  </Child>
+                  <Child ProgramID="29" ProgramInvalidReason="" ProgramMaxChildren="0" ProgramMinChildren="0" ProgramName="W1.4" ProgramType="WholeSimple">
+                    <ProgramSupportedFields FieldNames="Name,ShapeID,ShapeName,GradeID,GradeName,InstituteID,InstituteName,AsymmGradeID,AsymmGradeName,Tilt"/>
+                    <ProgramSerializableFields FieldNames="Name,ShapeID,GradeID,InstituteID,AsymmGradeID,Tilt"/>
+                    <ProgramFields>
+                      <Field FieldID="0" FieldName="Name" Type="string" Value="W1.4"/>
+                      <Field FieldID="4" FieldName="ShapeID" Type="long" Value="5"/>
+                      <Field FieldID="6" FieldName="GradeID" Type="long" Value="2"/>
+                      <Field FieldID="8" FieldName="InstituteID" Type="long" Value="3"/>
+                      <Field FieldID="10" FieldName="AsymmGradeID" Type="long" Value="-1"/>
+                      <Field FieldID="14" FieldName="Tilt" Type="double" Value="180.000000"/>
+                    </ProgramFields>
+                    <ProgramChildren/>
+                  </Child>
+                  <Child ProgramID="30" ProgramInvalidReason="" ProgramMaxChildren="0" ProgramMinChildren="0" ProgramName="W1.5" ProgramType="WholeSimple">
+                    <ProgramSupportedFields FieldNames="Name,ShapeID,ShapeName,GradeID,GradeName,InstituteID,InstituteName,AsymmGradeID,AsymmGradeName,Tilt"/>
+                    <ProgramSerializableFields FieldNames="Name,ShapeID,GradeID,InstituteID,AsymmGradeID,Tilt"/>
+                    <ProgramFields>
+                      <Field FieldID="0" FieldName="Name" Type="string" Value="W1.5"/>
+                      <Field FieldID="4" FieldName="ShapeID" Type="long" Value="6"/>
+                      <Field FieldID="6" FieldName="GradeID" Type="long" Value="2"/>
+                      <Field FieldID="8" FieldName="InstituteID" Type="long" Value="3"/>
+                      <Field FieldID="10" FieldName="AsymmGradeID" Type="long" Value="-1"/>
+                      <Field FieldID="14" FieldName="Tilt" Type="double" Value="180.000000"/>
+                    </ProgramFields>
+                    <ProgramChildren/>
+                  </Child>
+                  <Child ProgramID="31" ProgramInvalidReason="" ProgramMaxChildren="0" ProgramMinChildren="0" ProgramName="W1.6" ProgramType="WholeSimple">
+                    <ProgramSupportedFields FieldNames="Name,ShapeID,ShapeName,GradeID,GradeName,InstituteID,InstituteName,AsymmGradeID,AsymmGradeName,Tilt"/>
+                    <ProgramSerializableFields FieldNames="Name,ShapeID,GradeID,InstituteID,AsymmGradeID,Tilt"/>
+                    <ProgramFields>
+                      <Field FieldID="0" FieldName="Name" Type="string" Value="W1.6"/>
+                      <Field FieldID="4" FieldName="ShapeID" Type="long" Value="8"/>
+                      <Field FieldID="6" FieldName="GradeID" Type="long" Value="2"/>
+                      <Field FieldID="8" FieldName="InstituteID" Type="long" Value="3"/>
+                      <Field FieldID="10" FieldName="AsymmGradeID" Type="long" Value="-1"/>
+                      <Field FieldID="14" FieldName="Tilt" Type="double" Value="180.000000"/>
+                    </ProgramFields>
+                    <ProgramChildren/>
+                  </Child>
+                  <Child ProgramID="32" ProgramInvalidReason="" ProgramMaxChildren="0" ProgramMinChildren="0" ProgramName="W1.7" ProgramType="WholeSimple">
+                    <ProgramSupportedFields FieldNames="Name,ShapeID,ShapeName,GradeID,GradeName,InstituteID,InstituteName,AsymmGradeID,AsymmGradeName,Tilt"/>
+                    <ProgramSerializableFields FieldNames="Name,ShapeID,GradeID,InstituteID,AsymmGradeID,Tilt"/>
+                    <ProgramFields>
+                      <Field FieldID="0" FieldName="Name" Type="string" Value="W1.7"/>
+                      <Field FieldID="4" FieldName="ShapeID" Type="long" Value="11"/>
+                      <Field FieldID="6" FieldName="GradeID" Type="long" Value="2"/>
+                      <Field FieldID="8" FieldName="InstituteID" Type="long" Value="3"/>
+                      <Field FieldID="10" FieldName="AsymmGradeID" Type="long" Value="-1"/>
+                      <Field FieldID="14" FieldName="Tilt" Type="double" Value="180.000000"/>
+                    </ProgramFields>
+                    <ProgramChildren/>
+                  </Child>
+                </ProgramChildren>
+              </Child>
+            </ProgramChildren>
+          </Child>
+          <Child ProgramID="19" ProgramInvalidReason="" ProgramMaxChildren="-1" ProgramMinChildren="0" ProgramName="Best Plus Remainder" ProgramType="BestPlusRemainderContainer">
+            <ProgramSupportedFields FieldNames="Name"/>
+            <ProgramSerializableFields FieldNames="Name"/>
+            <ProgramFields>
+              <Field FieldID="0" FieldName="Name" Type="string" Value="Best Plus Remainder"/>
+            </ProgramFields>
+            <ProgramChildren/>
+          </Child>
+          <Child ProgramID="20" ProgramInvalidReason="" ProgramMaxChildren="-1" ProgramMinChildren="0" ProgramName="Best Twin" ProgramType="BestTwinContainer">
+            <ProgramSupportedFields FieldNames="Name"/>
+            <ProgramSerializableFields FieldNames="Name"/>
+            <ProgramFields>
+              <Field FieldID="0" FieldName="Name" Type="string" Value="Best Twin"/>
+            </ProgramFields>
+            <ProgramChildren/>
+          </Child>
+          <Child ProgramID="21" ProgramInvalidReason="" ProgramMaxChildren="-1" ProgramMinChildren="0" ProgramName="Best Pair" ProgramType="BestPairContainer">
+            <ProgramSupportedFields FieldNames="Name"/>
+            <ProgramSerializableFields FieldNames="Name"/>
+            <ProgramFields>
+              <Field FieldID="0" FieldName="Name" Type="string" Value="Best Pair"/>
+            </ProgramFields>
+            <ProgramChildren/>
+          </Child>
+          <Child ProgramID="22" ProgramInvalidReason="" ProgramMaxChildren="-1" ProgramMinChildren="0" ProgramName="Best Value" ProgramType="BestValueContainer">
+            <ProgramSupportedFields FieldNames="Name"/>
+            <ProgramSerializableFields FieldNames="Name"/>
+            <ProgramFields>
+              <Field FieldID="0" FieldName="Name" Type="string" Value="Best Value"/>
+            </ProgramFields>
+            <ProgramChildren/>
+          </Child>
+          <Child ProgramID="23" ProgramInvalidReason="" ProgramMaxChildren="-1" ProgramMinChildren="0" ProgramName="Sawless" ProgramType="eSawlessContainer">
+            <ProgramSupportedFields FieldNames="Name"/>
+            <ProgramSerializableFields FieldNames="Name"/>
+            <ProgramFields>
+              <Field FieldID="0" FieldName="Name" Type="string" Value="Sawless"/>
+            </ProgramFields>
+            <ProgramChildren/>
+          </Child>
+        </ProgramChildren>
+      </Child>
+      <Child ProgramID="92" ProgramInvalidReason="" ProgramMaxChildren="6" ProgramMinChildren="6" ProgramName="Demo Template" ProgramType="Trunk">
+        <ProgramSupportedFields FieldNames="Name,ColorIndex"/>
+        <ProgramSerializableFields FieldNames="Name,ColorIndex"/>
+        <ProgramFields>
+          <Field FieldID="0" FieldName="Name" Type="string" Value="Demo Template"/>
+          <Field FieldID="15" FieldName="ColorIndex" Type="long" Value="2"/>
+        </ProgramFields>
+        <ProgramChildren>
+          <Child ProgramID="71" ProgramInvalidReason="" ProgramMaxChildren="-1" ProgramMinChildren="0" ProgramName="Whole" ProgramType="WholeContainer">
+            <ProgramSupportedFields FieldNames="Name"/>
+            <ProgramSerializableFields FieldNames="Name"/>
+            <ProgramFields>
+              <Field FieldID="0" FieldName="Name" Type="string" Value="Whole"/>
+            </ProgramFields>
+            <ProgramChildren>
+              <Child ProgramID="72" ProgramInvalidReason="" ProgramMaxChildren="-1" ProgramMinChildren="1" ProgramName="W1" ProgramType="Whole">
+                <ProgramSupportedFields FieldNames="Name,MultiPlan"/>
+                <ProgramSerializableFields FieldNames="Name"/>
+                <ProgramFields>
+                  <Field FieldID="0" FieldName="Name" Type="string" Value="W1"/>
+                </ProgramFields>
+                <ProgramChildren>
+                  <Child ProgramID="73" ProgramInvalidReason="" ProgramMaxChildren="0" ProgramMinChildren="0" ProgramName="W1.1" ProgramType="WholeSimple">
+                    <ProgramSupportedFields FieldNames="Name,ShapeID,ShapeName,GradeID,GradeName,InstituteID,InstituteName,AsymmGradeID,AsymmGradeName,Tilt"/>
+                    <ProgramSerializableFields FieldNames="Name,ShapeID,GradeID,InstituteID,AsymmGradeID,Tilt"/>
+                    <ProgramFields>
+                      <Field FieldID="0" FieldName="Name" Type="string" Value="W1.1"/>
+                      <Field FieldID="4" FieldName="ShapeID" Type="long" Value="1"/>
+                      <Field FieldID="6" FieldName="GradeID" Type="long" Value="1"/>
+                      <Field FieldID="8" FieldName="InstituteID" Type="long" Value="5005"/>
+                      <Field FieldID="10" FieldName="AsymmGradeID" Type="long" Value="-1"/>
+                      <Field FieldID="14" FieldName="Tilt" Type="double" Value="180.000000"/>
+                    </ProgramFields>
+                    <ProgramChildren/>
+                  </Child>
+                  <Child ProgramID="74" ProgramInvalidReason="" ProgramMaxChildren="0" ProgramMinChildren="0" ProgramName="W1.2" ProgramType="WholeSimple">
+                    <ProgramSupportedFields FieldNames="Name,ShapeID,ShapeName,GradeID,GradeName,InstituteID,InstituteName,AsymmGradeID,AsymmGradeName,Tilt"/>
+                    <ProgramSerializableFields FieldNames="Name,ShapeID,GradeID,InstituteID,AsymmGradeID,Tilt"/>
+                    <ProgramFields>
+                      <Field FieldID="0" FieldName="Name" Type="string" Value="W1.2"/>
+                      <Field FieldID="4" FieldName="ShapeID" Type="long" Value="1"/>
+                      <Field FieldID="6" FieldName="GradeID" Type="long" Value="2"/>
+                      <Field FieldID="8" FieldName="InstituteID" Type="long" Value="5005"/>
+                      <Field FieldID="10" FieldName="AsymmGradeID" Type="long" Value="-1"/>
+                      <Field FieldID="14" FieldName="Tilt" Type="double" Value="180.000000"/>
+                    </ProgramFields>
+                    <ProgramChildren/>
+                  </Child>
+                </ProgramChildren>
+              </Child>
+            </ProgramChildren>
+          </Child>
+          <Child ProgramID="75" ProgramInvalidReason="" ProgramMaxChildren="-1" ProgramMinChildren="0" ProgramName="Best Plus Remainder" ProgramType="BestPlusRemainderContainer">
+            <ProgramSupportedFields FieldNames="Name"/>
+            <ProgramSerializableFields FieldNames="Name"/>
+            <ProgramFields>
+              <Field FieldID="0" FieldName="Name" Type="string" Value="Best Plus Remainder"/>
+            </ProgramFields>
+            <ProgramChildren>
+              <Child ProgramID="76" ProgramInvalidReason="" ProgramMaxChildren="2" ProgramMinChildren="2" ProgramName="B+R1" ProgramType="BestPlusRemainder">
+                <ProgramSupportedFields FieldNames="Name,MultiPlan,SawThikness,SawThicknessCalcMethod"/>
+                <ProgramSerializableFields FieldNames="Name,MultiPlan,SawThikness,SawThicknessCalcMethod"/>
+                <ProgramFields>
+                  <Field FieldID="0" FieldName="Name" Type="string" Value="B+R1"/>
+                  <Field FieldID="2" FieldName="SawThikness" Type="double" Value="50.000000"/>
+                  <Field FieldID="3" FieldName="SawThicknessCalcMethod" Type="long" Value="2"/>
+                </ProgramFields>
+                <ProgramChildren>
+                  <Child ProgramID="77" ProgramInvalidReason="" ProgramMaxChildren="-1" ProgramMinChildren="1" ProgramName="B+R1.Best" ProgramType="BestPlusRemainderBest">
+                    <ProgramSupportedFields FieldNames="Name"/>
+                    <ProgramSerializableFields FieldNames="Name"/>
+                    <ProgramFields>
+                      <Field FieldID="0" FieldName="Name" Type="string" Value="B+R1.Best"/>
+                    </ProgramFields>
+                    <ProgramChildren>
+                      <Child ProgramID="78" ProgramInvalidReason="" ProgramMaxChildren="0" ProgramMinChildren="0" ProgramName="B+R1.Best.1" ProgramType="BestPairSimple">
+                        <ProgramSupportedFields FieldNames="Name,ShapeID,ShapeName,GradeID,GradeName,InstituteID,InstituteName,AsymmGradeID,AsymmGradeName,Tilt"/>
+                        <ProgramSerializableFields FieldNames="Name,ShapeID,GradeID,InstituteID,AsymmGradeID,Tilt"/>
+                        <ProgramFields>
+                          <Field FieldID="0" FieldName="Name" Type="string" Value="B+R1.Best.1"/>
+                          <Field FieldID="4" FieldName="ShapeID" Type="long" Value="1"/>
+                          <Field FieldID="6" FieldName="GradeID" Type="long" Value="1"/>
+                          <Field FieldID="8" FieldName="InstituteID" Type="long" Value="5005"/>
+                          <Field FieldID="10" FieldName="AsymmGradeID" Type="long" Value="-1"/>
+                          <Field FieldID="14" FieldName="Tilt" Type="double" Value="180.000000"/>
+                        </ProgramFields>
+                        <ProgramChildren/>
+                      </Child>
+                    </ProgramChildren>
+                  </Child>
+                  <Child ProgramID="79" ProgramInvalidReason="" ProgramMaxChildren="-1" ProgramMinChildren="1" ProgramName="B+R1.Remainder" ProgramType="BestPlusRemainderRemainder">
+                    <ProgramSupportedFields FieldNames="Name"/>
+                    <ProgramSerializableFields FieldNames="Name"/>
+                    <ProgramFields>
+                      <Field FieldID="0" FieldName="Name" Type="string" Value="B+R1.Remainder"/>
+                    </ProgramFields>
+                    <ProgramChildren>
+                      <Child ProgramID="80" ProgramInvalidReason="" ProgramMaxChildren="0" ProgramMinChildren="0" ProgramName="B+R1.Remainder.1" ProgramType="BestPairSimple">
+                        <ProgramSupportedFields FieldNames="Name,ShapeID,ShapeName,GradeID,GradeName,InstituteID,InstituteName,AsymmGradeID,AsymmGradeName,Tilt"/>
+                        <ProgramSerializableFields FieldNames="Name,ShapeID,GradeID,InstituteID,AsymmGradeID,Tilt"/>
+                        <ProgramFields>
+                          <Field FieldID="0" FieldName="Name" Type="string" Value="B+R1.Remainder.1"/>
+                          <Field FieldID="4" FieldName="ShapeID" Type="long" Value="1"/>
+                          <Field FieldID="6" FieldName="GradeID" Type="long" Value="1"/>
+                          <Field FieldID="8" FieldName="InstituteID" Type="long" Value="5005"/>
+                          <Field FieldID="10" FieldName="AsymmGradeID" Type="long" Value="-1"/>
+                          <Field FieldID="14" FieldName="Tilt" Type="double" Value="180.000000"/>
+                        </ProgramFields>
+                        <ProgramChildren/>
+                      </Child>
+                    </ProgramChildren>
+                  </Child>
+                </ProgramChildren>
+              </Child>
+            </ProgramChildren>
+          </Child>
+          <Child ProgramID="81" ProgramInvalidReason="" ProgramMaxChildren="-1" ProgramMinChildren="0" ProgramName="Best Twin" ProgramType="BestTwinContainer">
+            <ProgramSupportedFields FieldNames="Name"/>
+            <ProgramSerializableFields FieldNames="Name"/>
+            <ProgramFields>
+              <Field FieldID="0" FieldName="Name" Type="string" Value="Best Twin"/>
+            </ProgramFields>
+            <ProgramChildren>
+              <Child ProgramID="82" ProgramInvalidReason="" ProgramMaxChildren="-1" ProgramMinChildren="1" ProgramName="BT1" ProgramType="BestTwin">
+                <ProgramSupportedFields FieldNames="Name,MultiPlan,SawThikness,SawThicknessCalcMethod"/>
+                <ProgramSerializableFields FieldNames="Name,MultiPlan,SawThikness,SawThicknessCalcMethod"/>
+                <ProgramFields>
+                  <Field FieldID="0" FieldName="Name" Type="string" Value="BT1"/>
+                  <Field FieldID="2" FieldName="SawThikness" Type="double" Value="50.000000"/>
+                  <Field FieldID="3" FieldName="SawThicknessCalcMethod" Type="long" Value="2"/>
+                </ProgramFields>
+                <ProgramChildren>
+                  <Child ProgramID="83" ProgramInvalidReason="" ProgramMaxChildren="0" ProgramMinChildren="0" ProgramName="BT1.1" ProgramType="BestTwinSimple">
+                    <ProgramSupportedFields FieldNames="Name,ShapeID,ShapeName,GradeID,GradeName,InstituteID,InstituteName,AsymmGradeID,AsymmGradeName,Tilt"/>
+                    <ProgramSerializableFields FieldNames="Name,ShapeID,GradeID,InstituteID,AsymmGradeID,Tilt"/>
+                    <ProgramFields>
+                      <Field FieldID="0" FieldName="Name" Type="string" Value="BT1.1"/>
+                      <Field FieldID="4" FieldName="ShapeID" Type="long" Value="1"/>
+                      <Field FieldID="6" FieldName="GradeID" Type="long" Value="1"/>
+                      <Field FieldID="8" FieldName="InstituteID" Type="long" Value="5005"/>
+                      <Field FieldID="10" FieldName="AsymmGradeID" Type="long" Value="-1"/>
+                      <Field FieldID="14" FieldName="Tilt" Type="double" Value="180.000000"/>
+                    </ProgramFields>
+                    <ProgramChildren/>
+                  </Child>
+                </ProgramChildren>
+              </Child>
+            </ProgramChildren>
+          </Child>
+          <Child ProgramID="84" ProgramInvalidReason="" ProgramMaxChildren="-1" ProgramMinChildren="0" ProgramName="Best Pair" ProgramType="BestPairContainer">
+            <ProgramSupportedFields FieldNames="Name"/>
+            <ProgramSerializableFields FieldNames="Name"/>
+            <ProgramFields>
+              <Field FieldID="0" FieldName="Name" Type="string" Value="Best Pair"/>
+            </ProgramFields>
+            <ProgramChildren>
+              <Child ProgramID="85" ProgramInvalidReason="" ProgramMaxChildren="2" ProgramMinChildren="2" ProgramName="BP1" ProgramType="BestPair">
+                <ProgramSupportedFields FieldNames="Name,MultiPlan,SawThikness,SawThicknessCalcMethod"/>
+                <ProgramSerializableFields FieldNames="Name,MultiPlan,SawThikness,SawThicknessCalcMethod"/>
+                <ProgramFields>
+                  <Field FieldID="0" FieldName="Name" Type="string" Value="BP1"/>
+                  <Field FieldID="2" FieldName="SawThikness" Type="double" Value="50.000000"/>
+                  <Field FieldID="3" FieldName="SawThicknessCalcMethod" Type="long" Value="2"/>
+                </ProgramFields>
+                <ProgramChildren>
+                  <Child ProgramID="86" ProgramInvalidReason="" ProgramMaxChildren="-1" ProgramMinChildren="1" ProgramName="BP1.Side A" ProgramType="BestPairSideA">
+                    <ProgramSupportedFields FieldNames="Name"/>
+                    <ProgramSerializableFields FieldNames="Name"/>
+                    <ProgramFields>
+                      <Field FieldID="0" FieldName="Name" Type="string" Value="BP1.Side A"/>
+                    </ProgramFields>
+                    <ProgramChildren>
+                      <Child ProgramID="87" ProgramInvalidReason="" ProgramMaxChildren="0" ProgramMinChildren="0" ProgramName="BP1.Side A.1" ProgramType="BestPairSimple">
+                        <ProgramSupportedFields FieldNames="Name,ShapeID,ShapeName,GradeID,GradeName,InstituteID,InstituteName,AsymmGradeID,AsymmGradeName,Tilt"/>
+                        <ProgramSerializableFields FieldNames="Name,ShapeID,GradeID,InstituteID,AsymmGradeID,Tilt"/>
+                        <ProgramFields>
+                          <Field FieldID="0" FieldName="Name" Type="string" Value="BP1.Side A.1"/>
+                          <Field FieldID="4" FieldName="ShapeID" Type="long" Value="1"/>
+                          <Field FieldID="6" FieldName="GradeID" Type="long" Value="1"/>
+                          <Field FieldID="8" FieldName="InstituteID" Type="long" Value="5005"/>
+                          <Field FieldID="10" FieldName="AsymmGradeID" Type="long" Value="-1"/>
+                          <Field FieldID="14" FieldName="Tilt" Type="double" Value="180.000000"/>
+                        </ProgramFields>
+                        <ProgramChildren/>
+                      </Child>
+                    </ProgramChildren>
+                  </Child>
+                  <Child ProgramID="88" ProgramInvalidReason="" ProgramMaxChildren="-1" ProgramMinChildren="1" ProgramName="BP1.Side B" ProgramType="BestPairSideB">
+                    <ProgramSupportedFields FieldNames="Name"/>
+                    <ProgramSerializableFields FieldNames="Name"/>
+                    <ProgramFields>
+                      <Field FieldID="0" FieldName="Name" Type="string" Value="BP1.Side B"/>
+                    </ProgramFields>
+                    <ProgramChildren>
+                      <Child ProgramID="89" ProgramInvalidReason="" ProgramMaxChildren="0" ProgramMinChildren="0" ProgramName="BP1.Side B.1" ProgramType="BestPairSimple">
+                        <ProgramSupportedFields FieldNames="Name,ShapeID,ShapeName,GradeID,GradeName,InstituteID,InstituteName,AsymmGradeID,AsymmGradeName,Tilt"/>
+                        <ProgramSerializableFields FieldNames="Name,ShapeID,GradeID,InstituteID,AsymmGradeID,Tilt"/>
+                        <ProgramFields>
+                          <Field FieldID="0" FieldName="Name" Type="string" Value="BP1.Side B.1"/>
+                          <Field FieldID="4" FieldName="ShapeID" Type="long" Value="1"/>
+                          <Field FieldID="6" FieldName="GradeID" Type="long" Value="1"/>
+                          <Field FieldID="8" FieldName="InstituteID" Type="long" Value="5005"/>
+                          <Field FieldID="10" FieldName="AsymmGradeID" Type="long" Value="-1"/>
+                          <Field FieldID="14" FieldName="Tilt" Type="double" Value="180.000000"/>
+                        </ProgramFields>
+                        <ProgramChildren/>
+                      </Child>
+                    </ProgramChildren>
+                  </Child>
+                </ProgramChildren>
+              </Child>
+            </ProgramChildren>
+          </Child>
+          <Child ProgramID="90" ProgramInvalidReason="" ProgramMaxChildren="-1" ProgramMinChildren="0" ProgramName="Best Value" ProgramType="BestValueContainer">
+            <ProgramSupportedFields FieldNames="Name"/>
+            <ProgramSerializableFields FieldNames="Name"/>
+            <ProgramFields>
+              <Field FieldID="0" FieldName="Name" Type="string" Value="Best Value"/>
+            </ProgramFields>
+            <ProgramChildren/>
+          </Child>
+          <Child ProgramID="91" ProgramInvalidReason="" ProgramMaxChildren="-1" ProgramMinChildren="0" ProgramName="Sawless" ProgramType="eSawlessContainer">
+            <ProgramSupportedFields FieldNames="Name"/>
+            <ProgramSerializableFields FieldNames="Name"/>
+            <ProgramFields>
+              <Field FieldID="0" FieldName="Name" Type="string" Value="Sawless"/>
+            </ProgramFields>
+            <ProgramChildren/>
+          </Child>
+        </ProgramChildren>
+      </Child>
+      <Child ProgramID="103" ProgramInvalidReason="" ProgramMaxChildren="6" ProgramMinChildren="6" ProgramName="Best Value Demo" ProgramType="Trunk">
+        <ProgramSupportedFields FieldNames="Name,ColorIndex"/>
+        <ProgramSerializableFields FieldNames="Name,ColorIndex"/>
+        <ProgramFields>
+          <Field FieldID="0" FieldName="Name" Type="string" Value="Best Value Demo"/>
+          <Field FieldID="15" FieldName="ColorIndex" Type="long" Value="3"/>
+        </ProgramFields>
+        <ProgramChildren>
+          <Child ProgramID="94" ProgramInvalidReason="" ProgramMaxChildren="-1" ProgramMinChildren="0" ProgramName="Whole" ProgramType="WholeContainer">
+            <ProgramSupportedFields FieldNames="Name"/>
+            <ProgramSerializableFields FieldNames="Name"/>
+            <ProgramFields>
+              <Field FieldID="0" FieldName="Name" Type="string" Value="Whole"/>
+            </ProgramFields>
+            <ProgramChildren/>
+          </Child>
+          <Child ProgramID="95" ProgramInvalidReason="" ProgramMaxChildren="-1" ProgramMinChildren="0" ProgramName="Best Plus Remainder" ProgramType="BestPlusRemainderContainer">
+            <ProgramSupportedFields FieldNames="Name"/>
+            <ProgramSerializableFields FieldNames="Name"/>
+            <ProgramFields>
+              <Field FieldID="0" FieldName="Name" Type="string" Value="Best Plus Remainder"/>
+            </ProgramFields>
+            <ProgramChildren/>
+          </Child>
+          <Child ProgramID="96" ProgramInvalidReason="" ProgramMaxChildren="-1" ProgramMinChildren="0" ProgramName="Best Twin" ProgramType="BestTwinContainer">
+            <ProgramSupportedFields FieldNames="Name"/>
+            <ProgramSerializableFields FieldNames="Name"/>
+            <ProgramFields>
+              <Field FieldID="0" FieldName="Name" Type="string" Value="Best Twin"/>
+            </ProgramFields>
+            <ProgramChildren/>
+          </Child>
+          <Child ProgramID="97" ProgramInvalidReason="" ProgramMaxChildren="-1" ProgramMinChildren="0" ProgramName="Best Pair" ProgramType="BestPairContainer">
+            <ProgramSupportedFields FieldNames="Name"/>
+            <ProgramSerializableFields FieldNames="Name"/>
+            <ProgramFields>
+              <Field FieldID="0" FieldName="Name" Type="string" Value="Best Pair"/>
+            </ProgramFields>
+            <ProgramChildren/>
+          </Child>
+          <Child ProgramID="98" ProgramInvalidReason="" ProgramMaxChildren="-1" ProgramMinChildren="0" ProgramName="Best Value" ProgramType="BestValueContainer">
+            <ProgramSupportedFields FieldNames="Name"/>
+            <ProgramSerializableFields FieldNames="Name"/>
+            <ProgramFields>
+              <Field FieldID="0" FieldName="Name" Type="string" Value="Best Value"/>
+            </ProgramFields>
+            <ProgramChildren>
+              <Child ProgramID="99" ProgramInvalidReason="" ProgramMaxChildren="-1" ProgramMinChildren="2" ProgramName="BV1" ProgramType="BestValue">
+                <ProgramSupportedFields FieldNames="Name,MultiPlan,SawThikness,SawThicknessCalcMethod"/>
+                <ProgramSerializableFields FieldNames="Name,MultiPlan,SawThikness,SawThicknessCalcMethod"/>
+                <ProgramFields>
+                  <Field FieldID="0" FieldName="Name" Type="string" Value="BV1"/>
+                </ProgramFields>
+                <ProgramChildren>
+                  <Child ProgramID="100" ProgramInvalidReason="" ProgramMaxChildren="0" ProgramMinChildren="0" ProgramName="BV1.1" ProgramType="BestValueSimple">
+                    <ProgramSupportedFields FieldNames="Name,ShapeID,ShapeName,GradeID,GradeName,InstituteID,InstituteName,AsymmGradeID,AsymmGradeName,ePriceSetID,PriceSetName"/>
+                    <ProgramSerializableFields FieldNames="Name,ShapeID,GradeID,InstituteID,AsymmGradeID,ePriceSetID"/>
+                    <ProgramFields>
+                      <Field FieldID="0" FieldName="Name" Type="string" Value="BV1.1"/>
+                      <Field FieldID="4" FieldName="ShapeID" Type="long" Value="1"/>
+                      <Field FieldID="6" FieldName="GradeID" Type="long" Value="1"/>
+                      <Field FieldID="8" FieldName="InstituteID" Type="long" Value="2"/>
+                      <Field FieldID="10" FieldName="AsymmGradeID" Type="long" Value="-1"/>
+                      <Field FieldID="12" FieldName="ePriceSetID" Type="long" Value="0"/>
+                    </ProgramFields>
+                    <ProgramChildren/>
+                  </Child>
+                  <Child ProgramID="101" ProgramInvalidReason="" ProgramMaxChildren="0" ProgramMinChildren="0" ProgramName="BV1.2" ProgramType="BestValueSimple">
+                    <ProgramSupportedFields FieldNames="Name,ShapeID,ShapeName,GradeID,GradeName,InstituteID,InstituteName,AsymmGradeID,AsymmGradeName,ePriceSetID,PriceSetName"/>
+                    <ProgramSerializableFields FieldNames="Name,ShapeID,GradeID,InstituteID,AsymmGradeID,ePriceSetID"/>
+                    <ProgramFields>
+                      <Field FieldID="0" FieldName="Name" Type="string" Value="BV1.2"/>
+                      <Field FieldID="4" FieldName="ShapeID" Type="long" Value="1"/>
+                      <Field FieldID="6" FieldName="GradeID" Type="long" Value="1"/>
+                      <Field FieldID="8" FieldName="InstituteID" Type="long" Value="2"/>
+                      <Field FieldID="10" FieldName="AsymmGradeID" Type="long" Value="-1"/>
+                      <Field FieldID="12" FieldName="ePriceSetID" Type="long" Value="0"/>
+                    </ProgramFields>
+                    <ProgramChildren/>
+                  </Child>
+                </ProgramChildren>
+              </Child>
+            </ProgramChildren>
+          </Child>
+          <Child ProgramID="102" ProgramInvalidReason="" ProgramMaxChildren="-1" ProgramMinChildren="0" ProgramName="Sawless" ProgramType="eSawlessContainer">
+            <ProgramSupportedFields FieldNames="Name"/>
+            <ProgramSerializableFields FieldNames="Name"/>
+            <ProgramFields>
+              <Field FieldID="0" FieldName="Name" Type="string" Value="Sawless"/>
+            </ProgramFields>
+            <ProgramChildren/>
+          </Child>
+        </ProgramChildren>
+      </Child>
+    </ProgramChildren>
+  </AllocationProgramsRoot>
+</Sarin>

@@ -1,0 +1,27 @@
+!LaserExport
+!check zero tilt
+!Show_Stone_Number 
+!suffix=mrk
+!Upside=Culet
+!HeartConvex=0
+.Sarin Machine111
+.Israel
+.Created on [:%A, %B %d, %Y]
+.Applied Safety Distance: [SafetyDistance:.1]
+=Double Stone Number
+&[number] [Double Stone Number] 2 /
+ [Shape Name] - added at [:%H:%M:%S (%d.%m.%y)]
+ 1
+ [number:.0]
+ Special dop
+ 1
+ [Stone Type]
+*[Lines Type] [Rxy:.0] [Rxy:.0]  [Rxy:.0] [Rxy:.0]  [Rangles] [RZhight:.0] [RZdepth:.0]
+ Rough description
+ 1
+ [number:.0]
+ Special dop
+ 1
+ 9
+ [number of stone lines]
+*L [x:.0] [y:.0]  [x:.0] [y:.0]   0 0

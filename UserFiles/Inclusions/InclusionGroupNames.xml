@@ -1,0 +1,14 @@
+<Sarin>
+  <GroupNames>
+    <Item ColorBlue="255" ColorGreen="0" ColorRed="0" ID="0" Name="None"/>
+    <Item ColorBlue="0" ColorGreen="255" ColorRed="0" ID="1" Name="Cloud"/>
+    <Item ColorBlue="0" ColorGreen="0" ColorRed="255" ID="2" Name="Crack"/>
+    <Item ColorBlue="255" ColorGreen="255" ColorRed="128" ID="3" Name="Crystal"/>
+    <Item ColorBlue="0" ColorGreen="0" ColorRed="0" ID="4" Name="Needle"/>
+    <Item ColorBlue="0" ColorGreen="255" ColorRed="255" ID="5" Name="PinPoint"/>
+    <Item ColorBlue="197" ColorGreen="58" ColorRed="183" ID="6" Name="Cavity"/>
+    <Item ColorBlue="192" ColorGreen="192" ColorRed="192" ID="7" Name="Surface"/>
+    <Item ColorBlue="0" ColorGreen="127" ColorRed="127" ID="8" Name="Feather"/>
+    <Item ColorBlue="243" ColorGreen="152" ColorRed="141" ID="9" Name="Knot"/>
+  </GroupNames>
+</Sarin>

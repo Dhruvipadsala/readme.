@@ -1,0 +1,40 @@
+<Sarin>
+<SieveSizeTable>
+	<Sieve  MinDiameter="0.00"  MaxDiameter="1.10" Name="+0 -1.5" />
+	<Sieve  MinDiameter="1.11"  MaxDiameter="1.20" Name="+1.5 -2.5" />
+	<Sieve  MinDiameter="1.21"  MaxDiameter="1.25" Name="+2.5 -3.5" />
+	<Sieve  MinDiameter="1.26"  MaxDiameter="1.30" Name="+3.5 -4.0" />
+	<Sieve  MinDiameter="1.31"  MaxDiameter="1.40" Name="+4.0 -4.5" />
+	<Sieve  MinDiameter="1.41"  MaxDiameter="1.50" Name="+4.5 -5.0" />
+	<Sieve  MinDiameter="1.51"  MaxDiameter="1.55" Name="+5.0 -5.5" />
+	<Sieve  MinDiameter="1.56"  MaxDiameter="1.60" Name="+5.5 -6.0" />
+	<Sieve  MinDiameter="1.61"  MaxDiameter="1.70" Name="+6.0 -6.5" />
+	<Sieve  MinDiameter="1.71"  MaxDiameter="1.80" Name="+6.5 -7.0" />
+	<Sieve  MinDiameter="1.81"  MaxDiameter="1.90" Name="+7.0 -7.5" />
+	<Sieve  MinDiameter="1.91"  MaxDiameter="2.00" Name="+7.5 -8.0" />
+	<Sieve  MinDiameter="2.01"  MaxDiameter="2.15" Name="+8.0 -8.5" />
+	<Sieve  MinDiameter="2.16"  MaxDiameter="2.20" Name="+8.5 -9.0" />
+	<Sieve  MinDiameter="2.21"  MaxDiameter="2.30" Name="+9.0 -9.5" />
+	<Sieve  MinDiameter="2.31"  MaxDiameter="2.40" Name="+9.5 -10.0" />
+	<Sieve  MinDiameter="2.41"  MaxDiameter="2.50" Name="+10.0 -10.5" />
+	<Sieve  MinDiameter="2.51"  MaxDiameter="2.60" Name="+10.5 -11.0" />
+	<Sieve  MinDiameter="2.61"  MaxDiameter="2.70" Name="+11.0 -11.5" />
+	<Sieve  MinDiameter="2.71"  MaxDiameter="2.80" Name="+11.5 -12.0" />
+	<Sieve  MinDiameter="2.81"  MaxDiameter="2.90" Name="+12.0 -12.5" />
+	<Sieve  MinDiameter="2.91"  MaxDiameter="3.0" Name="+12.5 -13.0" />
+	<Sieve  MinDiameter="3.01"  MaxDiameter="3.10" Name="+13.0 -13.5" />
+	<Sieve  MinDiameter="3.11"  MaxDiameter="3.20" Name="+13.5 -14.0" />
+	<Sieve  MinDiameter="3.21"  MaxDiameter="3.30" Name="+14.0 -14.5" />
+	<Sieve  MinDiameter="3.31"  MaxDiameter="3.40" Name="+14.5 -15.0" />
+	<Sieve  MinDiameter="3.41"  MaxDiameter="3.50" Name="+15.0 -15.5" />
+	<Sieve  MinDiameter="3.51"  MaxDiameter="3.60" Name="+15.5 -16.0" />
+	<Sieve  MinDiameter="3.61"  MaxDiameter="3.70" Name="+16.0 -16.5" />
+	<Sieve  MinDiameter="3.71"  MaxDiameter="3.80" Name="+16.5 -17.0" />
+	<Sieve  MinDiameter="3.81"  MaxDiameter="3.90" Name="+17.0 -17.5" />
+	<Sieve  MinDiameter="3.91"  MaxDiameter="4.00" Name="+17.5 -18.0" />
+	<Sieve  MinDiameter="4.01"  MaxDiameter="4.10" Name="+18.0 -18.5" />
+	<Sieve  MinDiameter="4.11"  MaxDiameter="4.20" Name="+18.5 -19.0" />
+	<Sieve  MinDiameter="4.21"  MaxDiameter="4.30" Name="+19.0 -19.5" />
+	<Sieve  MinDiameter="4.31"  MaxDiameter="4.40" Name="+19.5 -20.0" />
+</SieveSizeTable>
+</Sarin>

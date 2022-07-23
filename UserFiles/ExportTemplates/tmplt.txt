@@ -1,0 +1,32 @@
+
+Rough
+~~~~~ 
+Stone Name   : [stone.Name]   
+Rough Weight : [stone.RoughWeight]crt 
+Rough Length : [stone.RoughLength]mm 
+Rough Height : [stone.RoughHeight]mm 
+
+Allocations and parts:
+~~~~~~~~~~~~~~~~~~~~~~
+Part A
+~~~~~~~
+part A name   :   [stone.PartA.partName]
+part A Weight :   [stone.PartA.partWeight]
+part A Usage  :   [Result.cur.1.partUsage]
+part A Height :   [stone.PartA.partHeight]
+Result A Shape:   [Result.cur.1.ShapeName]
+Result A Grade:   [Result.cur.1.Grading]
+Result A Girdle:  [Result.cur.1.Girdle_%]
+Result A Tilt :   [Result.cur.1.Tilt_Theta]
+
+Part B
+~~~~~~~
+part B name   :   [stone.PartB.partName]
+part B Weight :   [stone.PartB.partWeight]
+part B Usage  :   [Result.cur.2.partUsage]
+part B Height :   [stone.PartB.partHeight]
+Result B Shape:   [Result.cur.2.ShapeName]
+Result B Grade:   [Result.cur.2.Grading]
+Result B Girdle:  [Result.cur.2.Girdle_%]
+Result B Tilt :   [Result.cur.2.Tilt_Theta]
+~~~~~~~
